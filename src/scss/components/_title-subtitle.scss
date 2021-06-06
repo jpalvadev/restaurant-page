@@ -1,0 +1,10 @@
+.title-subtitle {
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  h2 {
+    margin-bottom: clamp(-10vmin, 10vmin, -10rem);
+  }
+  h3 {
+    color: var(--subtitle-color);
+  }
+}

@@ -1,0 +1,43 @@
+footer {
+  background-color: var(--black-background);
+  position: relative;
+
+  h4 {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  p {
+    color: #777;
+    padding-block: 2rem;
+  }
+}
+
+.container {
+  max-width: 130rem;
+  margin: 6rem auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 3rem;
+  padding-top: 6rem;
+  padding-inline: 2rem;
+}
+
+.phone {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 0;
+}
+
+.copyright {
+  text-align: center;
+  padding-block: 3rem;
+}
+
+.github {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: var(--primary-color);
+}

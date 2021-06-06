@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font: inherit;
+  color: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--text-font);
+  color: var(--text-color);
+}
+
+.separator {
+  width: 15%;
+  max-width: 10rem;
+}
+
+.rotate {
+  margin-top: 1rem;
+  transform: rotate(180deg);
+}
